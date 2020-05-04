@@ -49,13 +49,13 @@ function updateCounts () {
   var invisibleCount; 
   
   blueCount = document.querySelectorAll('#board .blue').length,
-  totals[0] = blueCount;
+  totals.blue = blueCount;
 
   greenCount = document.querySelectorAll('#board .green').length,
-  totals[1] = greenCount;
+  totals.green = greenCount;
 
   invisibleCount = document.querySelectorAll('#board .invisible').length,
-  totals[2] = invisibleCount;
+  totals.invisible = invisibleCount;
 
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
