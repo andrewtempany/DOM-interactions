@@ -66,29 +66,3 @@ function displayTotals (totals) {
     document.getElementById(key + '-total').innerHTML = totals[key]
   }
 }
-
-
-/*var  b = document.getElementsByClassName("blue"),
-var  c = document.getElementsByClassName("green"),
-var  d = document.getElementsByClassName("invisible");
-
-if (b.length > 0) {
-    document.getElementById('blue-total').length = totals[0];
-}; 
-if (c.length > 0) {
-    document.getElementById('green-total') = totals[1].innerHTML;
-} ;
-if (d.length > 0) {
-  document.getElementById('green-total') = totals[1].innerHTML;
-}*/
-
-
-/*var blueCount = document.getElementsByClassName('blue'),
-totals[0] = blueCount.length;
-
-var greenCount = document.getElementsByClassName('green'),
-totals[1] = greenCount.length;
-
-var invisibleCount = document.getElementsByClassName('invisible'),
-totals[2] = invisibleCount.length; 
-document.querySelectorAll('#board .blue').length;
